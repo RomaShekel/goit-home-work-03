@@ -1,0 +1,199 @@
+body {
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+}
+
+
+h2 {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation {
+    color: var(--navyblue, #2e2f42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--ocean, #404bbf);
+}
+
+.nav-link {
+    color: var(--navyblue, #2e2f42);
+}
+
+.address {
+    font-style: normal;
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--ocean, #404bbf);
+}
+
+.main-section {
+    background-color: var(--navyblue, #2E2F42);
+    color: var(--white, #FFF);
+    text-align: center;
+}
+
+.main-title {
+    color: var(--white, #FFF);
+    font-size: 56px;
+    font-weight: 700; 
+    letter-spacing: 1.12px;
+    line-height: 1.07
+}
+
+.button {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    color: var(--white, #FFF);
+    background: var(--iris, #4D5AE5);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--ocean, #404BBF);
+}
+
+.second-section-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.visually-hidden {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip:rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.our-team {
+    background-color: var(--cloud, #F4F4FD);
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+.team p {
+    font-size: 16px;
+}
+
+.team-member {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.post {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.our-portfolio-title {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.our-portfolio-text {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+.upper-logo{
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.upper-span {
+    color: #2e2f42 ;
+}
+
+.lower-logo {
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.lower-span {
+    color: #f4f4fd
+}
+
+footer {
+    background-color: var(--navyblue, #2E2F42);
+}
+
+footer p {
+    color: var(--cloud, #F4F4FD);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+footer nav {
+    color: var(--iris, #4D5AE5);
+}
+
+header nav {
+    color: var(--iris, #4D5AE5);
+}

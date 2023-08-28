@@ -61,6 +61,10 @@ ul {
     letter-spacing: 0.32px;
 }
 
+.nav-list {
+    padding: 24px 0;
+}
+
 .nav a:hover,
 .nav a:focus {
     color: var(--ocean, #404bbf);
@@ -68,7 +72,6 @@ ul {
 
 .nav-link {
     color: var(--navyblue, #2e2f42);
-    padding: 24px 0;
 }
 
 .address {
@@ -322,6 +325,7 @@ ul {
     text-transform: uppercase;
     display: inline-block; 
     margin-bottom: 16px;
+    
     
 }
 
